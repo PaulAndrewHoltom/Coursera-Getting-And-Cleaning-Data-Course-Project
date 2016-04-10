@@ -17,7 +17,7 @@ descriptions of the contents of the raw data files.
 
 * `tidyData.txt` contains the final, tidy data set required by the assignment
 
-## `run_analysis.R` script
+## The `run_analysis.R` script
 
 The R script `run_analysis.R` follows the instructions as outlined below:
 
