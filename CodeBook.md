@@ -1,9 +1,5 @@
 # Code Book
----
-title: "CodeBook"
-author: "Paul Andrew Holtom"
-date: "8 April 2016"
----
+
 This code book summarizes the data fields in `tidyData.txt`.
 
 ## Identifiers
