@@ -7,9 +7,9 @@ The dataset used is: [Human Activity Recognition Using Smartphones](http://archi
 
 ## Files
 
-* `CodeBook.md` describes the variables, the data, and any transformations or work that was performed to clean up the data
+* `CodeBook.md` describes the the data, the variables and the transformations that was performed to clean up the data
 
-* `run_analysis.R` contains all the code to perform the 5 steps of the Course Project assignment
+* `run_analysis.R` contains all the code to perform the steps of the Course Project assignment
 
 The code assumes all the data is present in the same folder, un-compressed and without names altered. For this reason, the first part of the code
 ("Step 0") is required the first time the script is run. The `README.txt` and `features_info.txt` files for the original data source contain full 
@@ -28,12 +28,12 @@ The R script `run_analysis.R` follows the instructions as outlined below:
 
 Following these directions, the script is set out as follows:
 * **Step 0**
-Carries out **preliminaries steps**, such as loading the required libraries, downloading and unzipping the dataset, 
+Carries out **preliminary steps**, such as loading the required libraries, downloading and unzipping the dataset, 
 and tidying up by removing all objects from environment. **This step does not always need to be executed in full**.
 
 * **Step 1**
-Uses `rbind` command to **merge** the features, activity and subjects parts of the training and the test 
-raw data, and the function `cbind' to merge these into a **single data set** (as yet without meaningful column names).
+Uses the `rbind` command to **merge** the features, activity and subjects parts of the training and the test 
+raw data, and the function `cbind` to merge these into a **single data set** (as yet without meaningful column names).
 The first two columns of the merged data set are renamed `subject' and `activity` respectively.
 
 * **Step 2**
