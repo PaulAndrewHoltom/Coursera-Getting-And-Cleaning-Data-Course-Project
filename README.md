@@ -34,7 +34,7 @@ and tidying up by removing all objects from environment. **This step does not al
 * **Step 1**
 Uses the `rbind` command to **merge** the features, activity and subjects parts of the training and the test 
 raw data, and the function `cbind` to merge these into a **single data set** (as yet without meaningful column names).
-The first two columns of the merged data set are renamed `subject' and `activity` respectively.
+The first two columns of the merged data set are renamed `subject` and `activity` respectively.
 
 * **Step 2**
 Here we **extract only the measurements on the mean and standard deviation for each measurement**.
@@ -42,7 +42,7 @@ We have assumed that any column name including the text "mean", "Mean", "std" an
 which constitutes 86 features in total, which are retained in the final 'tidy' data set.
 Note that the result is that the "Additional vectors [...] used on the angle() variable" 
 (see the `features_info.txt` for details) are retained in the final tidy data set - this is a conscious decision based on
-the desire to following the directions in the assignment, and these additional variables may be removed from the 
+the desire to follow the directions in the assignment, and these additional variables may be removed from the 
 data set at a later date if it turns out that they constitute a different observational unit than the other variables.
 The variables were renamed by removing non-alpha-numeric characters.
 
@@ -64,10 +64,10 @@ The end result is written to a file `tidyData.txt` in the working directory.
 
 ## Cleaned Data
 
-The CodeBook still has the specific description of the tidy data file contents, including the list of all 86 variables that 
+The CodeBook has the specific description of the tidy data file contents, including the list of all 86 variables that 
 were retained in the final 'tidy' data file `tidyData.txt`. 
 This tidy data text file that meets the principles of tidy data as outlined in the course and specified in full 
-in the article ["Tidy Data"] (https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf)
+in the article ["Tidy Data"] (https://www.jstatsoft.org/article/view/v059i10/v59i10.pdf):
 
 * "Each variable forms a column": `tidyData.txt` contains contains columns for `subject`, `activity`, 
 and for each feature that was a mean or standard deviation from the original dataset
@@ -86,7 +86,7 @@ source("run_analysis.R")
 
 ## Note
 The `run_analysis.R` script follows as closely as possible the Step 1-5 structure as outlined in the assignment instructions. 
-The there is of course a quicker way of producing the (identical) tidy data set that merges and/or reorders 
-some of these steps. Such a code is shown in `run_analysis(short).R`, which has the added benefit that the allData table - which is 
+There is a quicker way of producing the (identical) tidy data set that merges and/or reorders 
+some of these steps. Such a code is shown in `run_analysis(short).R`, which has the added benefit that the `allData` data set - which is 
 the merge of the test and train datasets before the "mean"/"std" subsetting - already has meaningful variable names, which could
 be useful for future analyses using this data.
