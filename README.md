@@ -15,6 +15,8 @@ The code assumes all the data is present in the same folder, un-compressed and w
 ("Step 0") is required the first time the script is run. The `README.txt` and `features_info.txt` files for the original data source contain full 
 descriptions of the contents of the raw data files. 
 
+* `tidyData.txt` contains the final, tidy data set required by the assignment
+
 ## `run_analysis.R` script
 
 The R script `run_analysis.R` follows the instructions as outlined below:
