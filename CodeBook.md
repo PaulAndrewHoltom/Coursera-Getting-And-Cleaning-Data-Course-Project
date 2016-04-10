@@ -11,7 +11,7 @@ This code book summarizes the data fields in `tidyData.txt`.
 
 Each feature is normalized and bounded within [-1,1]
 
-* `tBodyAccMeanX` \ \ \ [originally `tBodyAcc-mean()-X` (column `1`)]
+* `tBodyAccMeanX` [originally `tBodyAcc-mean()-X` (column `1`)]
 * `tBodyAccMeanY` [originally `tBodyAcc-mean()-Y` (column `2`)]
 * `tBodyAccMeanZ` [originally `tBodyAcc-mean()-Z` (column `3`)]
 * `tBodyAccStdX` [originally `tBodyAcc-std()-X` (column `4`)]
