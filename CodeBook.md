@@ -110,5 +110,6 @@ Each feature is normalized and bounded within [-1,1]
 ## Study Design
 
 For details of the study design, including a description of how the data were collected, 
-please see the original `README.txt` file for the dataset used 
+please see the original `README.txt` file for the 
 [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones)
+dataset used.
