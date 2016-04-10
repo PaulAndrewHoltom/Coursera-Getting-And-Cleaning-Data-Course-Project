@@ -89,6 +89,6 @@ source("run_analysis.R")
 ## Note
 The `run_analysis.R` script follows as closely as possible the Step 1-5 structure as outlined in the assignment instructions. 
 There is a quicker way of producing the (identical) tidy data set that merges and/or reorders 
-some of these steps. Such a code is shown in `run_analysis(short).R`, which has the added benefit that the `allData` data set - which is 
+some of these steps. Such a code is shown in `run_analysis_short.R`, which has the added benefit that the `allData` data set - which is 
 the merge of the test and train datasets before the "mean"/"std" subsetting - already has meaningful variable names, which could
 be useful for future analyses using this data.
